@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap");
+#logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 4px;
+}
+.linko {
+  margin-left: 10%;
+}
+.li {
+  width: 100%;
+}
+.margin-set {
+  margin-left: 35%;
+  float: right;
+}
+.na {
+  align-items: center;
+}
+.lefts {
+  margin-left: 10%;
+}
+.logod {
+  margin-left: 60%;
+  margin-top: 10px;
+}
+.im {
+  width: 80%;
+  height: 90%;
+  margin-left: 10%;
+}
+.cont {
+  margin-top: 100px;
+  text-align: center;
+}
+.mi {
+  width: 70%;
+}
+.card-item {
+  background-color: floralwhite;
+  margin: 40px;
+  margin-top: 80px;
+  border-radius: 10px;
+  text-align: center;
+  width: 70%;
+  height: 200px;
+  /* overflow-x: hidden;
+  overflow-y: scroll; */
+
+  word-wrap: break-word;
+}
+.vac {
+  background-color: rgb(241, 214, 106);
+  margin: 10px;
+  border-radius: 20px;
+  width: 33%;
+}
+.vac h6 {
+  margin-left: 15px;
+}
+
+.eas {
+  background-color: lightgoldenrodyellow;
+  border-radius: 20px;
+  margin: 20px;
+  margin-top: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+  height: 130px;
+  padding-top: 3px;
+}
+.par {
+  word-wrap: break-word;
+}
+.aditi {
+  font-size: 20px;
+  font-family: "Sofia", sans-serif;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  &-btn {
+    width: 45%;
+    max-width: 160px;
+    color: #fff;
+    margin: 20px 10px;
+    text-align: left;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    &.blu {
+      background-color: #101010;
+      transition: background-color 0.25s linear;
+      &:hover {
+        background-color: #454545;
+      }
+    }
+    i {
+      width: 20%;
+      text-align: center;
+      font-size: 28px;
+      margin-right: 7px;
+    }
+    .big-txt {
+      font-size: 17px;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.uli {
+  font-size: 15px;
+}
+
+@media (max-width: 767px) {
+  .divv {
+    visibility: hidden;
+    display: none;
+  }
+  .bady {
+    height: 1800px;
+  }
+  .eas {
+    height: 180px;
+  }
+  .vacity {
+    display: block;
+  }
+  .vac {
+    display: block;
+    width: 100%;
+  }
+}
+.uli {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(139, 0, 0);
+  font-size: 15px;
+}
+.eas p {
+  color: brown;
+}
